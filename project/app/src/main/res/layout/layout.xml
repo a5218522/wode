@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.lwj.widget.viewpagerindicator.ViewPagerIndicator
+        android:id="@+id/indicator_line"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#efefef"
+        app:vpi_default_color="#cdcdcd"
+        app:vpi_distance="800dp"
+        app:vpi_distanceType="BY_LAYOUT"
+        app:vpi_indicatorType="LINE"
+        app:vpi_length="24dp"
+        app:vpi_radius="8dp"
+        app:vpi_selected_color="#FF23EEF5"
+        />
+</LinearLayout>

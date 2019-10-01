@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/favorite"
+            android:icon="@drawable/icon1"
+            android:title="我的信息"/>
+
+    </group>
+    <item
+        android:id="@+id/wallet"
+        android:icon="@drawable/icon2_gaitubao_com_440x440"
+
+        android:title="会员中心"/>
+    <item
+        android:id="@+id/photo"
+        android:icon="@drawable/icon3_gaitubao_com_395x395"
+        android:title="商城"/>
+    <item
+        android:id="@+id/dress"
+        android:icon="@drawable/icon4_gaitubao_com_440x440"
+        android:title="游戏推荐"/>
+    <item
+        android:id="@+id/file"
+        android:icon="@drawable/icon5_gaitubao_com_397x397"
+        android:title="在线听歌免流量"/>
+
+</menu>
